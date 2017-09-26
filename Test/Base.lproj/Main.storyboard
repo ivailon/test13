@@ -718,6 +718,17 @@
                                 <rect key="frame" x="20" y="87" width="163" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </customView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7cy-bV-iLO">
+                                <rect key="frame" x="164" y="13" width="154" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Set color for view2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ETd-9t-YYj">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="test:" target="XfG-lQ-9wD" id="3xa-GI-mdV"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
